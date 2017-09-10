@@ -1,5 +1,7 @@
 # @pnpm/outdated
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/pnpm/outdated.svg)](https://greenkeeper.io/)
+
 > Check for outdated packages
 
 <!--@shields('npm', 'travis')-->
