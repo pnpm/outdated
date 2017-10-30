@@ -9,6 +9,7 @@ before_install:
 install:
   - pnpm install
 script:
+  - npm run tsc
   - npm test
 env:
   global:

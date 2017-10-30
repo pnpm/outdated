@@ -8,8 +8,7 @@
     "lib"
   ],
   "scripts": {
-    "test": "tslint --config tslint.json --project . && preview && ls node_modules/@pnpm && tsc -p test && node test",
-    "prepublishOnly": "tsc",
+    "test": "preview && ls node_modules/@pnpm && tsc -p test && node test",
     "tsc": "tsc",
     "md": "mos"
   },
