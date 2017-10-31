@@ -8,7 +8,7 @@
     "lib"
   ],
   "scripts": {
-    "test": "tslint --config tslint.json --project . && node node_modules/package-preview/lib/cli && ts-node test",
+    "test": "tslint --config tslint.json --project . && tsc && node node_modules/package-preview/lib/cli && ts-node test",
     "prepublishOnly": "tsc",
     "tsc": "tsc",
     "md": "mos"
