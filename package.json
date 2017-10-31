@@ -8,7 +8,8 @@
     "lib"
   ],
   "scripts": {
-    "test": "ts-node test",
+    "test": "tslint --config tslint.json --project . && preview && ts-node test",
+    "prepublishOnly": "tsc",
     "tsc": "tsc",
     "md": "mos"
   },

@@ -9,7 +9,6 @@ before_install:
 install:
   - pnpm install
 script:
-  - npm run tsc
   - pnpx package-preview # temporary fix for https://github.com/Microsoft/TypeScript/issues/19594
   - npm test
 env:
