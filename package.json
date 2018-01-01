@@ -36,7 +36,7 @@
     "@pnpm/logger": "^1.0.0"
   },
   "dependencies": {
-    "@pnpm/npm-resolver": "^0.3.0",
+    "@pnpm/npm-resolver": "^0.3.9",
     "@types/node": "^8.0.33",
     "dependency-path": "^1.2.0",
     "package-store": "^0.12.0",
