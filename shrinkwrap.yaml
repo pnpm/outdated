@@ -1,13 +1,12 @@
 dependencies:
   '@pnpm/npm-resolver': 2.1.4
-  '@pnpm/outdated': 'link:../__package_previews__/outdated/@pnpm/outdated'
   '@pnpm/read-package-json': 1.0.0
   '@pnpm/store-path': 1.0.3
   '@types/node': 10.5.2
   dependency-path: 1.2.1
   pnpm-shrinkwrap: 7.0.0
 devDependencies:
-  '@pnpm/logger': 2.0.1
+  '@pnpm/logger': 1.0.2
   '@types/tape': 4.2.32
   mos: 2.0.0-alpha.3
   mos-plugin-readme: 1.0.4
@@ -29,16 +28,16 @@ packages:
       node: '>=4'
     resolution:
       integrity: sha512-1zLmh6tRftQXfZ1IFHq1IexP0KaJhN6pSCA/IzK+Vixn4hPvxwcIbGjKW0KH9hsHSmrPpmSit2EWj7jGNgfa6Q==
-  /@pnpm/logger/2.0.1:
+  /@pnpm/logger/1.0.2:
     dependencies:
       '@types/node': 10.5.2
       bole: 3.0.2
       ndjson: 1.5.0
     dev: true
     engines:
-      node: '>=6'
+      node: '>=4'
     resolution:
-      integrity: sha512-dST450D6Nj9iu0L16wqBv6dEXpbSQ6tyG1G9zSIzzjHqcDdKgdtpNR/0DvxpDEzBPfwGFQ868+o7AFaCuQsyig==
+      integrity: sha512-A8XbJKvdueazvJGPn1qQ9LL6uopV88ebIT+dJKNQ68gT7yfCbtfT8j5ZzdVczmGbkiuBeZ1VckZerkO0tjOXZA==
   /@pnpm/npm-resolver/2.1.4:
     dependencies:
       '@pnpm/resolver-base': 1.1.0
@@ -3614,7 +3613,7 @@ registry: 'https://registry.npmjs.org/'
 shrinkwrapMinorVersion: 8
 shrinkwrapVersion: 3
 specifiers:
-  '@pnpm/logger': ^2.0.1
+  '@pnpm/logger': ^1.0.2
   '@pnpm/npm-resolver': ^2.0.0
   '@pnpm/read-package-json': ^1.0.0
   '@pnpm/store-path': ^1.0.0

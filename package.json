@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/pnpm/outdated#readme",
   "peerDependencies": {
-    "@pnpm/logger": ">=2.0.1 <3.0.0"
+    "@pnpm/logger": "<2.0.0"
   },
   "dependencies": {
     "@pnpm/npm-resolver": "^2.0.0",
@@ -47,7 +47,7 @@
     "pnpm-shrinkwrap": "^7.0.0"
   },
   "devDependencies": {
-    "@pnpm/logger": "^2.0.1",
+    "@pnpm/logger": "^1.0.2",
     "@types/tape": "^4.2.31",
     "mos": "^2.0.0-alpha.3",
     "mos-plugin-readme": "^1.0.4",
